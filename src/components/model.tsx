@@ -29,4 +29,4 @@ export const EarthCanvas = () => {
   );
 };
 
-useGLTF.preload('./room/room.glb')
+useGLTF.preload('./models/vaviva_2.glb')

@@ -1,4 +1,3 @@
-import "./App.css";
 import { EarthCanvas } from "./components/model";
 
 function App() {

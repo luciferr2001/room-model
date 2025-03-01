@@ -2,8 +2,9 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Stats, useGLTF } from "@react-three/drei";
 
 export const EarthCanvas = () => {
-  const earth = useGLTF("./room/room.glb");
+  const earth = useGLTF("./models/vaviva_2.glb");
   return (
+    <>
     <Canvas
       className="cursor-pointer"
       frameloop="demand"
@@ -24,6 +25,7 @@ export const EarthCanvas = () => {
       <primitive object={earth.scene} scale={0.5} castShadow={false} receiveShadow={false} />
       <Stats />
     </Canvas>
+    </>
   );
 };
 

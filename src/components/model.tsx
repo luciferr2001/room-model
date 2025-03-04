@@ -2,7 +2,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Stats, useGLTF } from "@react-three/drei";
 
 export const EarthCanvas = () => {
-  const earth = useGLTF("./models/office-1.glb");
+  const earth = useGLTF("./models/ruby.glb");
   return (
     <>
       <Canvas
@@ -29,4 +29,4 @@ export const EarthCanvas = () => {
   );
 };
 
-useGLTF.preload("./models/office-1.glb");
+useGLTF.preload("./models/ruby.glb");
